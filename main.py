@@ -24,8 +24,9 @@ app.add_middleware(
 
 
 class Settings(BaseSettings):
-    base_dir: ClassVar[Path] = Path(__file__).resolve().parent
-    data_folder: str = str(base_dir / "data")
+    # base_dir: ClassVar[Path] = Path(__file__).resolve().parent
+    # data_folder: str = str(base_dir / "data")
+    data_folder: str = "data"
 
 
 settings = Settings()
