@@ -11,7 +11,7 @@ app = FastAPI(title="ToDo Backend",
               description="Бэк-энд списка дел")
 
 origins = [
-    "http://localhost:8000"  # адрес на котором запускаете бэк-энд
+    "http://localhost:8000"  # адрес на котором запускаете бэк
 ]
 
 app.add_middleware(
