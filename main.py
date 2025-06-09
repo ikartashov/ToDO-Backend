@@ -8,7 +8,7 @@ from typing import ClassVar
 from fastapi.middleware.cors import CORSMiddleware
 
 app = FastAPI(title="ToDo Backend",
-              description="Бэк-энд списка дел")
+              description="Backend списка дел")
 
 origins = [
     "http://localhost:8000"  # адрес на котором запускаете бэк
