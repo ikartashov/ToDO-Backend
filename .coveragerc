@@ -1,0 +1,9 @@
+[run]
+omit =
+    */tests/*
+    */migrations/*
+    */venv/*
+    */__pycache__/*
+    main.py
+    web_server_Flask.py
+    new_file.py
